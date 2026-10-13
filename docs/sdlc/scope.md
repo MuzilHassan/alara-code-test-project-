@@ -2,75 +2,60 @@
 
 | Project | Client | Version | Date |
 | --- | --- | --- | --- |
-| gate-way-removal | gateway | 1.0 | 2026-10-08 |
+| github-test | me | 1.0 | 2026-10-13 |
+
+# Simple Static Landing Page for Guest House
 
 ## Project Overview
-
-The project aims to create a simple HTML page for Gateway that displays the current time in the center against a red background. This initiative is intended to meet the client's requirement for a straightforward, browser-accessible digital clock without additional features.
+This project aims to develop a simple static landing page for a guest house to enhance online visibility and attract potential guests. The landing page will serve as a primary marketing tool, providing essential information about the guest house's offerings, including room details and the brand story, in a visually appealing manner.
 
 ## Objectives
-
-- Create an HTML page that displays the current time at the center.
-- Ensure the page has a red background.
+- Increase online visibility and attract potential guests.
+- Provide essential information about the guest house's offerings in a clear and engaging manner.
 
 ## In Scope
-
 | Id | Capability | Description | Objective served |
 |---|---|---|---|
-| SCOPE-001 | HTML Clock Page Development | Development of a single HTML page displaying the current time. | Create an HTML page that displays the current time at the center. |
-| SCOPE-002 | Red Background Implementation | Implementation of a red background for the HTML page. | Ensure the page has a red background. |
+| SCOPE-001 | Static Landing Page Development | Development of a static landing page featuring a hero section, room display section, and brand story section. | Increase online visibility and attract potential guests. |
 
 ## Out of Scope
-
-- Support for multiple time zones or formats, as these features are not required by the client.
+- Booking functionality and dynamic features are excluded as the landing page will remain a static representation.
 
 ## Stakeholders
-
-| Name | Role | Organization | Contact type | Key concern |
-|---|---|---|---|---|
-| General Users | Users | Gateway | end user | Access to the clock display via a web browser |
-
-## Operational Scenarios
-
-1. **Access Clock Display** — General Users open their web browser, navigate to the HTML page, and view the current time displayed in the center against a red background.
+| Name | Role | Organization | Contact type |
+|---|---|---|---|
+| Potential Guests | End User | N/A | client sponsor |
 
 ## Assumptions
-
-- The HTML page will be accessed only through web browsers.
+- It is assumed that all content and imagery for the landing page will be provided by the client.
 
 ## Constraints
-
 | Type | Description |
 |---|---|
-| technical | The HTML page must be accessible through standard web browsers without additional plugins. |
+| budget | The project will be constrained by a limited budget. |
+| timeline | The timeline for the project has yet to be defined. |
 
 ## Risks
-
 | Id | Description (cause → event → consequence) | Likelihood | Impact | Mitigation |
 |---|---|---|---|---|
-| RISK-001 | Browser compatibility issues may lead to display errors, resulting in user dissatisfaction. | medium | medium | Conduct thorough testing across major browsers to ensure compatibility. |
+| RISK-001 | The project may face delays due to unclear content provision from the client, resulting in a delayed launch. | medium | high | Ensure clear communication with the client regarding content deadlines. |
 
 ## Deliverables
-
 | Deliverable | Description | Acceptance criterion |
 |---|---|---|
-| HTML Clock Page | A single HTML page that displays the current time centered with a red background. | The page is viewable in a web browser and meets the design specifications. |
+| Static Landing Page | HTML/CSS | Successful deployment and demonstration of all specified sections as outlined. |
 
-## Technical Context
-
-_No specific technology stack or integrations were mentioned in the RFP._
+## Scope Change Control
+The scope is baselined on approval; a change is raised, impact-assessed (effort, schedule, requirements affected) and approved before it is built.
 
 ```mermaid
 flowchart LR
-  User[General Users] --> System[HTML Clock Page]
+  Users[Users] --> System[The system]
+  System --> Ext[External system]
 ```
-
-## Scope Change Control
-
-The scope is baselined on approval; a change is raised, impact-assessed (effort, schedule, requirements affected) and approved before it is built.
 
 ## Version History
 
 | Version | Date | Author | Changes | Status |
 | --- | --- | --- | --- | --- |
-| 1.0 | 2026-10-08 | ECC-SDLC | Initial draft — scope extracted from RFP/brief | Draft |
+| 1.0 | 2026-10-13 | ECC-SDLC | Initial draft — scope extracted from RFP/brief | Draft |
